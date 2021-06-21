@@ -34,5 +34,6 @@ class User(
 class Vote(
     @OneToOne var userID: User,
     var blockNonce: Int,
-    @Id @GeneratedValue val id: Long? = null// hashedDocument
+    var value: String,
+    @Id @GeneratedValue val id: Long? = null
 )

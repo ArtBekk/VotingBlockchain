@@ -19,7 +19,7 @@ allOpen {
 }
 
 group = "com.artbekk"
-version = "0.0.1-SNAPSHOT"
+version = "0.9.1-SNAPSHOT"
 java.sourceCompatibility = JavaVersion.VERSION_1_8
 
 repositories {
@@ -49,7 +49,7 @@ tasks.withType<KotlinCompile> {
 tasks.withType<ShadowJar> {
     baseName = "VotingApp"
     classifier = ""
-    version = "1.0.0"
+    version = "0.9.1"
     manifest {
         attributes["Main-Class"] = "com.artbekk.voting.VotingApplicationKt"
     }

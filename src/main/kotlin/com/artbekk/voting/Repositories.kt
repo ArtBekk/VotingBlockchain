@@ -18,5 +18,5 @@ interface UserRepository : CrudRepository<User, String> {
 }
 
 @RepositoryRestResource
-interface VoteRepository : CrudRepository<Vote, Long> {
+interface VoteRepository : CrudRepository<Vote, String> {
 }
